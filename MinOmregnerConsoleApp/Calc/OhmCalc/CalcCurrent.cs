@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MinOmregnerConsoleApp.OhmCalc
+namespace MinOmregnerConsoleApp.Calc.Ohmcalc
 {
-    internal class CalcCurrent
+    public class CalcCurrent
     {
 
         public double GetCurrentByPowerAndResistance(double power, double resistance)
@@ -16,7 +16,7 @@ namespace MinOmregnerConsoleApp.OhmCalc
         }
         public double GetCurrentByPowerAndVoltage(double power, double voltage)
         {
-            // Beregn spændingen ved hjælp af Ohms lov: I = P / E
+            // Beregn spændingen ved hjælp af Ohms lov: I = P / V
             return power / voltage;
         }
         public double GetCurrentByVoltageAndResistance(double voltage, double resistance)

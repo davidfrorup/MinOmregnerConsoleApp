@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MinOmregnerConsoleApp.OhmCalc
+namespace MinOmregnerConsoleApp.Calc.Ohmcalc
 {
-    internal class CalcVoltage
+    public class CalcVoltage
     {
         public double GetVoltageByCurrentAndResistance(double current, double resistance)
         {

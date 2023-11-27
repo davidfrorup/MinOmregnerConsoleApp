@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MinOmregnerConsoleApp
+namespace MinOmregnerConsoleApp.Calc.Ohmcalc
 {
-    internal class CalcResistance
+    public class CalcResistance
     {
 
         public double GetResistanceByPowerAndCurrent(double power, double current)
